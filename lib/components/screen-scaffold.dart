@@ -82,4 +82,12 @@ class ScreenHeaderDelegate implements SliverPersistentHeaderDelegate {
       ScreenHeadline(title, opacity: opacity),
     ]);
   }
+  
+  @override
+  // TODO: implement showOnScreenConfiguration
+  PersistentHeaderShowOnScreenConfiguration get showOnScreenConfiguration => throw UnimplementedError();
+  
+  @override
+  // TODO: implement vsync
+  TickerProvider get vsync => throw UnimplementedError();
 }

@@ -86,7 +86,7 @@ class AddWalletButton extends StatelessWidget {
 
     return Container(
         width: 180,
-        child: FlatButton(
+        child: TextButton(
           onPressed: () {
             _showBottomSheet(context);
           },
